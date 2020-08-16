@@ -10,6 +10,13 @@ pool:
   vmImage: 'macos-latest'
 
 steps:
+- task: Bash@3
+  inputs:
+    targetType: 'inline'
+    script: |
+      export GITHUB_ACCESS_TOKEN=$(Github-PAT-Carthage)
+      carthage bootstrap --platform iOS --cache-builds && echo '*** Resolved dependencies:' && cat 'Cartfile.resolved'  
+
 - task: Xcode@5
   inputs:
     actions: 'build'
