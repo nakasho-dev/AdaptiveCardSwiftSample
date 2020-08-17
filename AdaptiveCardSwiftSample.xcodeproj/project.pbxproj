@@ -40,6 +40,7 @@
 		897540692282C08700283A53 /* BrightFutures.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BrightFutures.framework; path = Carthage/Build/iOS/BrightFutures.framework; sourceTree = "<group>"; };
 		8975406A2282C08700283A53 /* TinyConstraints.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TinyConstraints.framework; path = Carthage/Build/iOS/TinyConstraints.framework; sourceTree = "<group>"; };
 		8975407C22915CEB00283A53 /* Nimble.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Nimble.framework; path = Carthage/Build/iOS/Nimble.framework; sourceTree = "<group>"; };
+		89B62DBF24EAD34F00B51004 /* AdaptiveCardSwiftSample-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AdaptiveCardSwiftSample-Bridging-Header.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +91,7 @@
 				897540492282B68500283A53 /* ViewController.swift */,
 				8975404E2282B68700283A53 /* Assets.xcassets */,
 				897540532282B68700283A53 /* Info.plist */,
+				89B62DBF24EAD34F00B51004 /* AdaptiveCardSwiftSample-Bridging-Header.h */,
 			);
 			path = AdaptiveCardSwiftSample;
 			sourceTree = "<group>";
@@ -166,6 +168,7 @@
 				TargetAttributes = {
 					897540432282B68500283A53 = {
 						CreatedOnToolsVersion = 10.2.1;
+						LastSwiftMigration = 1160;
 					};
 					897540572282B68800283A53 = {
 						CreatedOnToolsVersion = 10.2.1;
@@ -400,7 +403,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 862947V3YT;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -413,6 +418,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = org.ukky.nakasho.dev.sample.AdaptiveCardSwiftSample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "AdaptiveCardSwiftSample/AdaptiveCardSwiftSample-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -422,7 +429,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 862947V3YT;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -435,6 +444,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = org.ukky.nakasho.dev.sample.AdaptiveCardSwiftSample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "AdaptiveCardSwiftSample/AdaptiveCardSwiftSample-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
