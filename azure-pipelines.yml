@@ -30,6 +30,7 @@ steps:
     configuration: 'Debug'
     sdk: 'iphoneos'
     xcWorkspacePath: '**/AdaptiveCardSwiftSample.xcworkspace'
+    scheme: 'AdaptiveCardSwiftSample'
     packageApp: false
 
 - task: WhiteSource Bolt@20
