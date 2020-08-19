@@ -27,11 +27,10 @@ steps:
 - task: Xcode@5
   inputs:
     actions: 'build'
-    scheme: ''
-    sdk: 'iphoneos'
     configuration: 'Release'
-    xcWorkspacePath: '**/*.xcodeproj/project.xcworkspace'
-    xcodeVersion: 'default' # Options: 8, 9, 10, default, specifyPath
+    sdk: 'iphoneos'
+    xcWorkspacePath: '**/AdaptiveCardSwiftSample.xcworkspace'
+    packageApp: false
 
 - task: WhiteSource Bolt@20
   inputs:
