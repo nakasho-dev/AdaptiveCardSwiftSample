@@ -5,7 +5,7 @@ target 'AdaptiveCardSwiftSample' do
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
 
-  pod 'AdaptiveCards'
+#  pod 'AdaptiveCards'
   pod 'AppCenter'
   pod 'RxSwift', '~> 5'
   pod 'RxCocoa', '~> 5'

@@ -1,5 +1,4 @@
 PODS:
-  - AdaptiveCards (1.2.6)
   - AppCenter (3.3.2):
     - AppCenter/Analytics (= 3.3.2)
     - AppCenter/Crashes (= 3.3.2)
@@ -20,7 +19,6 @@ PODS:
     - RxSwift (~> 5)
 
 DEPENDENCIES:
-  - AdaptiveCards
   - AppCenter
   - RxBlocking (~> 5)
   - RxCocoa (~> 5)
@@ -29,7 +27,6 @@ DEPENDENCIES:
 
 SPEC REPOS:
   trunk:
-    - AdaptiveCards
     - AppCenter
     - RxBlocking
     - RxCocoa
@@ -38,7 +35,6 @@ SPEC REPOS:
     - RxTest
 
 SPEC CHECKSUMS:
-  AdaptiveCards: 05d05abdd421225a57a186919bf753b7bcf5f87e
   AppCenter: aba7de06e4c2184f90dc84f7866bd07f82427d69
   RxBlocking: 5f700a78cad61ce253ebd37c9a39b5ccc76477b4
   RxCocoa: e741b9749968e8a143e2b787f1dfbff2b63d0a5c
@@ -46,6 +42,6 @@ SPEC CHECKSUMS:
   RxSwift: e2dc62b366a3adf6a0be44ba9f405efd4c94e0c4
   RxTest: 711632d5644dffbeb62c936a521b5b008a1e1faa
 
-PODFILE CHECKSUM: d976ee73637214d00fedda2d1c40857948030c0c
+PODFILE CHECKSUM: 9d80fd6d96dcb42329b76300e60077502281ac32
 
 COCOAPODS: 1.9.3
