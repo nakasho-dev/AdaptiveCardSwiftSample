@@ -13,9 +13,6 @@ steps:
 - task: Npm@1
   inputs:
     command: 'install'
-- task: WhiteSource Bolt@20
-  inputs:
-    cwd: '${Build.SourcesDirectory}'
 - task: Bash@3
   inputs:
     targetType: 'inline'
@@ -31,3 +28,7 @@ steps:
     configuration: 'Release'
     xcWorkspacePath: '**/*.xcodeproj/project.xcworkspace'
     xcodeVersion: 'default' # Options: 8, 9, 10, default, specifyPath
+
+- task: WhiteSource Bolt@20
+  inputs:
+    cwd: '${Build.SourcesDirectory}'
