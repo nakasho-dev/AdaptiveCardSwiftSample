@@ -10,6 +10,7 @@ import UIKit
 import SafariServices
 import BrightFutures
 import TinyConstraints
+import RxSwift
 
 class ViewController: UIViewController {
     
@@ -38,6 +39,8 @@ class ViewController: UIViewController {
                 }
             }
 
+        _ = Observable.just("hoge")
+        
         
         configSubviews()
         addSubviews()

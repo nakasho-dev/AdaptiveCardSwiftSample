@@ -7,12 +7,16 @@ target 'AdaptiveCardSwiftSample' do
 
   pod 'AdaptiveCards'
   pod 'AppCenter'
+  pod 'RxSwift', '~> 5'
+  pod 'RxCocoa', '~> 5'
 
   # Pods for AdaptiveCardSwiftSample
 
   target 'AdaptiveCardSwiftSampleTests' do
     inherit! :search_paths
     # Pods for testing
+    pod 'RxBlocking', '~> 5'
+    pod 'RxTest', '~> 5'
   end
 
 end
