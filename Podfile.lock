@@ -1,0 +1,27 @@
+PODS:
+  - AdaptiveCards (1.2.6)
+  - AppCenter (3.3.2):
+    - AppCenter/Analytics (= 3.3.2)
+    - AppCenter/Crashes (= 3.3.2)
+  - AppCenter/Analytics (3.3.2):
+    - AppCenter/Core
+  - AppCenter/Core (3.3.2)
+  - AppCenter/Crashes (3.3.2):
+    - AppCenter/Core
+
+DEPENDENCIES:
+  - AdaptiveCards
+  - AppCenter
+
+SPEC REPOS:
+  trunk:
+    - AdaptiveCards
+    - AppCenter
+
+SPEC CHECKSUMS:
+  AdaptiveCards: 05d05abdd421225a57a186919bf753b7bcf5f87e
+  AppCenter: aba7de06e4c2184f90dc84f7866bd07f82427d69
+
+PODFILE CHECKSUM: 686d52f34ba08a052529abb90ece34a7ca5a7621
+
+COCOAPODS: 1.9.3

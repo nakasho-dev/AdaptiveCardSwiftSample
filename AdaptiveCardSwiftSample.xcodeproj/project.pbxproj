@@ -3,10 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		382F41DC905581F18FB1ADC2 /* Pods_AdaptiveCardSwiftSample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEAD985430604DD4C962103E /* Pods_AdaptiveCardSwiftSample.framework */; };
+		3B18E24B6B0BC9B7A78FE0A9 /* Pods_AdaptiveCardSwiftSampleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9E26574E9055326D3500A5A /* Pods_AdaptiveCardSwiftSampleTests.framework */; };
 		897540482282B68500283A53 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 897540472282B68500283A53 /* AppDelegate.swift */; };
 		8975404A2282B68500283A53 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 897540492282B68500283A53 /* ViewController.swift */; };
 		8975404F2282B68700283A53 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8975404E2282B68700283A53 /* Assets.xcassets */; };
@@ -15,6 +17,7 @@
 		8975406C2282C08700283A53 /* BrightFutures.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 897540692282C08700283A53 /* BrightFutures.framework */; };
 		8975406D2282C08700283A53 /* TinyConstraints.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8975406A2282C08700283A53 /* TinyConstraints.framework */; };
 		8975407D22915CEB00283A53 /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8975407C22915CEB00283A53 /* Nimble.framework */; };
+		89B62DC324ECCBEA00B51004 /* SafariServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89B62DC224ECCBE900B51004 /* SafariServices.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,6 +44,13 @@
 		8975406A2282C08700283A53 /* TinyConstraints.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TinyConstraints.framework; path = Carthage/Build/iOS/TinyConstraints.framework; sourceTree = "<group>"; };
 		8975407C22915CEB00283A53 /* Nimble.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Nimble.framework; path = Carthage/Build/iOS/Nimble.framework; sourceTree = "<group>"; };
 		89B62DBF24EAD34F00B51004 /* AdaptiveCardSwiftSample-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AdaptiveCardSwiftSample-Bridging-Header.h"; sourceTree = "<group>"; };
+		89B62DC224ECCBE900B51004 /* SafariServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SafariServices.framework; path = System/Library/Frameworks/SafariServices.framework; sourceTree = SDKROOT; };
+		B86DA0AE13238425ABB5FB3A /* Pods-AdaptiveCardSwiftSampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AdaptiveCardSwiftSampleTests.release.xcconfig"; path = "Target Support Files/Pods-AdaptiveCardSwiftSampleTests/Pods-AdaptiveCardSwiftSampleTests.release.xcconfig"; sourceTree = "<group>"; };
+		C9D664D5EE4BA7232DDFCB16 /* Pods-AdaptiveCardSwiftSample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AdaptiveCardSwiftSample.release.xcconfig"; path = "Target Support Files/Pods-AdaptiveCardSwiftSample/Pods-AdaptiveCardSwiftSample.release.xcconfig"; sourceTree = "<group>"; };
+		CB36C29D30EF721EA06840A6 /* Pods-AdaptiveCardSwiftSample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AdaptiveCardSwiftSample.debug.xcconfig"; path = "Target Support Files/Pods-AdaptiveCardSwiftSample/Pods-AdaptiveCardSwiftSample.debug.xcconfig"; sourceTree = "<group>"; };
+		DB2B5C2497428BB60978C4CC /* Pods-AdaptiveCardSwiftSampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AdaptiveCardSwiftSampleTests.debug.xcconfig"; path = "Target Support Files/Pods-AdaptiveCardSwiftSampleTests/Pods-AdaptiveCardSwiftSampleTests.debug.xcconfig"; sourceTree = "<group>"; };
+		DEAD985430604DD4C962103E /* Pods_AdaptiveCardSwiftSample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AdaptiveCardSwiftSample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9E26574E9055326D3500A5A /* Pods_AdaptiveCardSwiftSampleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AdaptiveCardSwiftSampleTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,9 +58,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				89B62DC324ECCBEA00B51004 /* SafariServices.framework in Frameworks */,
 				8975406B2282C08700283A53 /* AdaptiveCards.framework in Frameworks */,
 				8975406C2282C08700283A53 /* BrightFutures.framework in Frameworks */,
 				8975406D2282C08700283A53 /* TinyConstraints.framework in Frameworks */,
+				382F41DC905581F18FB1ADC2 /* Pods_AdaptiveCardSwiftSample.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,12 +71,24 @@
 			buildActionMask = 2147483647;
 			files = (
 				8975407D22915CEB00283A53 /* Nimble.framework in Frameworks */,
+				3B18E24B6B0BC9B7A78FE0A9 /* Pods_AdaptiveCardSwiftSampleTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7519D274BDB1E25C3CEBF11D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CB36C29D30EF721EA06840A6 /* Pods-AdaptiveCardSwiftSample.debug.xcconfig */,
+				C9D664D5EE4BA7232DDFCB16 /* Pods-AdaptiveCardSwiftSample.release.xcconfig */,
+				DB2B5C2497428BB60978C4CC /* Pods-AdaptiveCardSwiftSampleTests.debug.xcconfig */,
+				B86DA0AE13238425ABB5FB3A /* Pods-AdaptiveCardSwiftSampleTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		8975403B2282B68500283A53 = {
 			isa = PBXGroup;
 			children = (
@@ -72,6 +96,7 @@
 				8975405B2282B68800283A53 /* AdaptiveCardSwiftSampleTests */,
 				897540452282B68500283A53 /* Products */,
 				897540672282C08700283A53 /* Frameworks */,
+				7519D274BDB1E25C3CEBF11D /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -108,10 +133,13 @@
 		897540672282C08700283A53 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				89B62DC224ECCBE900B51004 /* SafariServices.framework */,
 				8975407C22915CEB00283A53 /* Nimble.framework */,
 				897540682282C08700283A53 /* AdaptiveCards.framework */,
 				897540692282C08700283A53 /* BrightFutures.framework */,
 				8975406A2282C08700283A53 /* TinyConstraints.framework */,
+				DEAD985430604DD4C962103E /* Pods_AdaptiveCardSwiftSample.framework */,
+				F9E26574E9055326D3500A5A /* Pods_AdaptiveCardSwiftSampleTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -123,10 +151,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 897540612282B68800283A53 /* Build configuration list for PBXNativeTarget "AdaptiveCardSwiftSample" */;
 			buildPhases = (
+				A730D9FC4E39964F1AF42B1E /* [CP] Check Pods Manifest.lock */,
 				897540402282B68500283A53 /* Sources */,
 				897540412282B68500283A53 /* Frameworks */,
 				897540422282B68500283A53 /* Resources */,
 				8975407622831D0100283A53 /* ShellScript */,
+				442649979409BF45913D1268 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -141,6 +171,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 897540642282B68800283A53 /* Build configuration list for PBXNativeTarget "AdaptiveCardSwiftSampleTests" */;
 			buildPhases = (
+				14D43334751447F2F7AE8E43 /* [CP] Check Pods Manifest.lock */,
 				897540542282B68800283A53 /* Sources */,
 				897540552282B68800283A53 /* Frameworks */,
 				897540562282B68800283A53 /* Resources */,
@@ -214,6 +245,45 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		14D43334751447F2F7AE8E43 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AdaptiveCardSwiftSampleTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		442649979409BF45913D1268 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AdaptiveCardSwiftSample/Pods-AdaptiveCardSwiftSample-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AdaptiveCardSwiftSample/Pods-AdaptiveCardSwiftSample-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AdaptiveCardSwiftSample/Pods-AdaptiveCardSwiftSample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		8975407622831D0100283A53 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -251,6 +321,28 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n/usr/local/bin/carthage copy-frameworks\n";
+		};
+		A730D9FC4E39964F1AF42B1E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AdaptiveCardSwiftSample-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -401,6 +493,7 @@
 		};
 		897540622282B68800283A53 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB36C29D30EF721EA06840A6 /* Pods-AdaptiveCardSwiftSample.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -427,6 +520,7 @@
 		};
 		897540632282B68800283A53 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C9D664D5EE4BA7232DDFCB16 /* Pods-AdaptiveCardSwiftSample.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -452,6 +546,7 @@
 		};
 		897540652282B68800283A53 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DB2B5C2497428BB60978C4CC /* Pods-AdaptiveCardSwiftSampleTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -477,6 +572,7 @@
 		};
 		897540662282B68800283A53 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B86DA0AE13238425ABB5FB3A /* Pods-AdaptiveCardSwiftSampleTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
