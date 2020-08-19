@@ -18,6 +18,7 @@
 		8975406D2282C08700283A53 /* TinyConstraints.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8975406A2282C08700283A53 /* TinyConstraints.framework */; };
 		8975407D22915CEB00283A53 /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8975407C22915CEB00283A53 /* Nimble.framework */; };
 		89B62DC324ECCBEA00B51004 /* SafariServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89B62DC224ECCBE900B51004 /* SafariServices.framework */; };
+		89B62DC524ED5A4300B51004 /* TrustKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89B62DC424ED5A4300B51004 /* TrustKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		8975407C22915CEB00283A53 /* Nimble.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Nimble.framework; path = Carthage/Build/iOS/Nimble.framework; sourceTree = "<group>"; };
 		89B62DBF24EAD34F00B51004 /* AdaptiveCardSwiftSample-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AdaptiveCardSwiftSample-Bridging-Header.h"; sourceTree = "<group>"; };
 		89B62DC224ECCBE900B51004 /* SafariServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SafariServices.framework; path = System/Library/Frameworks/SafariServices.framework; sourceTree = SDKROOT; };
+		89B62DC424ED5A4300B51004 /* TrustKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TrustKit.framework; path = Carthage/Build/iOS/TrustKit.framework; sourceTree = "<group>"; };
 		B86DA0AE13238425ABB5FB3A /* Pods-AdaptiveCardSwiftSampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AdaptiveCardSwiftSampleTests.release.xcconfig"; path = "Target Support Files/Pods-AdaptiveCardSwiftSampleTests/Pods-AdaptiveCardSwiftSampleTests.release.xcconfig"; sourceTree = "<group>"; };
 		C9D664D5EE4BA7232DDFCB16 /* Pods-AdaptiveCardSwiftSample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AdaptiveCardSwiftSample.release.xcconfig"; path = "Target Support Files/Pods-AdaptiveCardSwiftSample/Pods-AdaptiveCardSwiftSample.release.xcconfig"; sourceTree = "<group>"; };
 		CB36C29D30EF721EA06840A6 /* Pods-AdaptiveCardSwiftSample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AdaptiveCardSwiftSample.debug.xcconfig"; path = "Target Support Files/Pods-AdaptiveCardSwiftSample/Pods-AdaptiveCardSwiftSample.debug.xcconfig"; sourceTree = "<group>"; };
@@ -58,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				89B62DC524ED5A4300B51004 /* TrustKit.framework in Frameworks */,
 				89B62DC324ECCBEA00B51004 /* SafariServices.framework in Frameworks */,
 				8975406B2282C08700283A53 /* AdaptiveCards.framework in Frameworks */,
 				8975406C2282C08700283A53 /* BrightFutures.framework in Frameworks */,
@@ -133,6 +136,7 @@
 		897540672282C08700283A53 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				89B62DC424ED5A4300B51004 /* TrustKit.framework */,
 				89B62DC224ECCBE900B51004 /* SafariServices.framework */,
 				8975407C22915CEB00283A53 /* Nimble.framework */,
 				897540682282C08700283A53 /* AdaptiveCards.framework */,
@@ -296,6 +300,7 @@
 				"$(SRCROOT)/Carthage/Build/iOS/AdaptiveCards.framework",
 				"$(SRCROOT)/Carthage/Build/iOS/TinyConstraints.framework",
 				"$(SRCROOT)/Carthage/Build/iOS/BrightFutures.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/TrustKit.framework",
 			);
 			outputFileListPaths = (
 			);

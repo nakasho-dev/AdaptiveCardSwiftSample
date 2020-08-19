@@ -11,6 +11,7 @@ import SafariServices
 import BrightFutures
 import TinyConstraints
 import RxSwift
+import TrustKit
 
 class ViewController: UIViewController {
     
