@@ -20,6 +20,10 @@ steps:
       export GITHUB_ACCESS_TOKEN=$(Github-PAT-Carthage)
       carthage bootstrap --platform iOS --cache-builds && echo '*** Resolved dependencies:' && cat 'Cartfile.resolved'  
 
+- task: CocoaPods@0
+  inputs:
+    forceRepoUpdate: false
+
 - task: Xcode@5
   inputs:
     actions: 'build'
