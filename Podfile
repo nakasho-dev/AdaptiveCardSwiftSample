@@ -9,7 +9,7 @@ target 'AdaptiveCardSwiftSample' do
   pod 'AppCenter'
   pod 'RxSwift', '~> 5'
   pod 'RxCocoa', '~> 5'
-  pod 'Firebase', '~> 3.16.0'
+  pod 'Firebase', '~> 6.16.0'
   pod 'Firebase/Core' 
   pod 'Firebase/Database'
   pod 'Firebase/RemoteConfig'
